@@ -152,4 +152,4 @@ jobs:
       - name: Terraform Apply (waits for GitHub Environment approval)
         run: terraform apply -auto-approve tfplan.binary
         env:
-          SSH_PUBLIC_KEY: ${{ secrets.SSH_PUBLIC_KEY }}
+          TF_VAR_ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }} 

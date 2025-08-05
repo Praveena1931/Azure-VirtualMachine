@@ -13,4 +13,4 @@ vm_name                    = "Linux-machine"
 vm_size                    = "Standard_F2"
 
 admin_username             = "adminuser"
-ssh_public_key             = "../../ssh/id_rsa.pub"
+# ssh_public_key             = "../../ssh/id_rsa.pub"
