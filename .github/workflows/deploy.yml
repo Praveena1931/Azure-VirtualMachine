@@ -51,8 +51,8 @@ jobs:
           echo "ARM_TENANT_ID=${{ fromJson(secrets.AZURE_CREDENTIALS).tenantId }}" >> $GITHUB_ENV
 
 
-      # - name: Terraform Init
-      #   run: terraform init
+      - name: Terraform Init
+        run: terraform init
 
       - name: Pass SSH Public Key as Secret to Terraform
         run: |
@@ -62,8 +62,8 @@ jobs:
         env:
           TF_VAR_ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }} 
 
-      - name: Terraform Validate
-        run: terraform validate
+      # - name: Terraform Validate
+      #   run: terraform validate
 
       - name: Terraform Plan
         id: tfplan
