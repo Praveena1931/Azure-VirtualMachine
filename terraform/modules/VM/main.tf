@@ -40,7 +40,7 @@ resource "azurerm_linux_virtual_machine" "VM" {
   ]
 
   admin_ssh_key {
-    username   = "azureuser"
+    username   = "adminuser"
     public_key = var.ssh_public_key
   }
 

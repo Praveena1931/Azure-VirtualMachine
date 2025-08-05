@@ -22,7 +22,7 @@ module "Virtual" {
   vm_name                 = var.vm_name
   vm_size                 = var.vm_size
   admin_username          = "adminuser"
-  
+
     
   # network_interface_ids = [
   #   azurerm_network_interface.nic.id,
