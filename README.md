@@ -216,8 +216,8 @@ terraform destroy -auto-approve
 
 ## 🧠 Learn More
 
-* [Azure Recovery Vault Documentation](https://learn.microsoft.com/en-us/azure/virtual-machines/)
-* [Azure Recovery Vault creation using terraform](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-terraform)
+* [Azure Virtual machine Documentation](https://learn.microsoft.com/en-us/azure/virtual-machines/)
+* [Azure Virtual Machine creation using terraform](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-terraform)
 * [Terraform AzureRM Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
 * [GitHub Actions for Terraform](https://github.com/hashicorp/setup-terraform)
 
